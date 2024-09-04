@@ -63,7 +63,7 @@
 						android:layout_marginTop="-25dp"
 						android:contentDescription="icons8_podcasts_100_1"
 						android:src="@drawable/icons8_podcasts_100_1"
-                        tools:ignore="HardcodedText" />
+						tools:ignore="HardcodedText" />
 
 					<ImageView
 						android:id="@+id/icons8_music_100_1"
@@ -267,38 +267,22 @@
 
 					<RelativeLayout
 						android:id="@+id/button___primary"
-						android:layout_width="wrap_content"
+						android:layout_width="384dp"
 						android:layout_height="wrap_content"
 						android:layout_marginStart="0dp"
 						android:layout_marginTop="672dp">
 
 
-						<RelativeLayout
-							android:id="@+id/horisontal_group"
-							android:layout_width="wrap_content"
-							android:layout_height="wrap_content"
-							android:layout_marginStart="0dp"
-							android:layout_marginTop="4dp">
-
-
-							<RelativeLayout
-								android:id="@+id/primitive___button_primary"
-								android:layout_width="382dp"
-								android:layout_height="wrap_content"
-								android:layout_marginStart="16dp"
-								android:layout_marginTop="0dp">
-
-								<Button
-									android:id="@+id/loginbutton"
-									android:layout_width="match_parent"
-									android:layout_height="match_parent"
-									android:backgroundTint="#FFFAFA"
-									android:text="Start Listening"
-									android:textColor="#000000" />
-
-							</RelativeLayout>
-
-						</RelativeLayout>
+						<Button
+							android:id="@+id/loginbutton"
+							android:layout_width="356dp"
+							android:layout_height="match_parent"
+							android:layout_marginStart="27dp"
+							android:backgroundTint="#F37280"
+							android:text="Start Listening"
+							android:textColor="#000000"
+							app:cornerRadius="50dp"
+							tools:ignore="HardcodedText" />
 
 					</RelativeLayout>
 
