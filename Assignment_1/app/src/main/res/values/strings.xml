@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- iphone_13___14 strings -->
+
+<!--	<string name="app_name">User profile</string>-->
+	<string name="vova_parkhomchuk_string">Save Your Tears</string>
+	<string name="world_renowned_startup_founder_string">The Weeknd</string>
+	<string name="vova_parkhomchuk_ek1_string">Watermelon Sugar</string>
+	<string name="world_renowned_startup_founder_ek1_string">Harry Styles</string>
+	<string name="vova_parkhomchuk_ek2_string">Levitating</string>
+	<string name="world_renowned_startup_founder_ek2_string">Dua Lipa</string>
+	<string name="vova_parkhomchuk_ek3_string">Blinding Lights</string>
+	<string name="world_renowned_startup_founder_ek3_string">The Weeknd</string>
+	<string name="title_string">Recently Played Tracks</string>
+	<string name="label_string">Rock</string>
+	<string name="label_ek1_string">Pop</string>
+	<string name="label_ek2_string">Jazz</string>
+	<string name="label_ek3_string">Indie</string>
+	<string name="label_ek4_string">Hip-Hop</string>
+	<string name="title_ek1_string">Favorite Genres</string>
+	<string name="name_string">Sujan Chhetala</string>
+	<string name="name_ek1_string">0 followers . 25 followings</string>
+	<string name="time_string">9:41 AM</string>
+
+	<!-- homescreen strings -->
+
+	<string name="app_name">HomeScreen</string>
+	<string name="home_label_string">Latest Singles</string>
+	<string name="home_label_ek1_string">Rising Stars</string>
+	<string name="home_label_ek2_string">Album Releases</string>
+	<string name="home_label_ek3_string">Indie Discoveries</string>
+	<string name="home_title_string">New Releases</string>
+	<string name="home_label_ek4_string">Top Hits</string>
+	<string name="home_label_ek5_string">Chill Vibes</string>
+	<string name="home_label_ek6_string">Workout Anthems</string>
+	<string name="home_label_ek7_string">Best of 2023</string>
+	<string name="home_title_ek1_string">Trending Playlists</string>
+	<string name="search_string">Search for songs, artists, or playlists</string>
+	<string name="home_title_ek2_string">Welcome Back!</string>
+	<string name="home_label_ek8_string">Home</string>
+	<string name="home_label_ek9_string">Search</string>
+	<string name="home_label_ek10_string">Library</string>
+	<string name="home_label_ek11_string">Premium</string>
+	<string name="home_label_ek12_string">Profile</string>
+</resources>

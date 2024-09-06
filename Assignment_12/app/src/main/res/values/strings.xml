@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- userprofile strings -->
+
+	<string name="app_name">Music Streaming App</string>
+	<string name="user_vova_parkhomchuk_string">Save Your Tears</string>
+	<string name="user_world_renowned_startup_founder_string">The Weeknd</string>
+	<string name="user_vova_parkhomchuk_ek1_string">Watermelon Sugar</string>
+	<string name="user_world_renowned_startup_founder_ek1_string">Harry Styles</string>
+	<string name="user_vova_parkhomchuk_ek2_string">Levitating</string>
+	<string name="user_world_renowned_startup_founder_ek2_string">Dua Lipa</string>
+	<string name="user_vova_parkhomchuk_ek3_string">Blinding Lights</string>
+	<string name="user_world_renowned_startup_founder_ek3_string">The Weeknd</string>
+	<string name="user_title_string">Recently Played Tracks</string>
+	<string name="user_label_string">Rock</string>
+	<string name="user_label_ek1_string">Pop</string>
+	<string name="user_label_ek2_string">Jazz</string>
+	<string name="user_label_ek3_string">Indie</string>
+	<string name="user_label_ek4_string">Hip-Hop</string>
+	<string name="user_title_ek1_string">Favorite Genres</string>
+	<string name="user_name_string">Sujan Chhetala</string>
+	<string name="user_name_ek1_string">0 followers . 25 followings</string>
+
+	<!-- loginscreen strings -->
+
+
+	<string name="login_label_string">Dont have an account? Sign up</string>
+	<string name="login_label_ek1_string">Start Listening</string>
+	<string name="login_password_string">Enter your password</string>
+	<string name="login_label_ek2_string">Password:</string>
+	<string name="login_placeholder_string">Enter your email</string>
+	<string name="login_label_ek3_string">Email:</string>
+	<string name="login_title_string">Welcome to Music.py</string>
+
+	<!-- homescreen strings -->
+
+	<string name="home_label_string">Latest Singles</string>
+	<string name="home_label_ek1_string">Rising Stars</string>
+	<string name="home_title_string">Top Genres</string>
+	<string name="home_title_ek1_string">New Releases</string>
+	<string name="home_title_ek2_string">Enchanted</string>
+	<string name="home_label_text_string">Pop</string>
+	<string name="home_subtitle_string">Music album by Taylor Swift</string>
+	<string name="home_title_ek3_string">Taylor Swift</string>
+	<string name="home_title_ek4_string">Rare </string>
+	<string name="home_label_text_ek1_string">Pop</string>
+	<string name="home_subtitle_ek1_string">#new #pop #selena #release</string>
+	<string name="home_title_ek5_string">Selena Gomez</string>
+	<string name="home_title_ek6_string">Trending Playlists</string>
+	<string name="home_title_ek7_string">Sajjan Raj Vaidya Playlists</string>
+	<string name="home_title_ek8_string">Ronit VInta Playlists</string>
+	<string name="home_label_ek2_string">Home</string>
+	<string name="home_label_ek3_string">Search</string>
+	<string name="home_label_ek4_string">Library</string>
+	<string name="home_label_ek5_string">Premium</string>
+	<string name="home_label_ek6_string">Profile</string>
+	<string name="home_search_string">Search for songs, artists, or playlists</string>
+	<string name="home_music_py_string">Music.py</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- rectangle_2698 from your XD file. -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+	android:shape="rectangle" >
+	<corners android:radius="13.71dp" />
+	<stroke android:color="#a09cab" android:width="2dp" />
+	<solid android:color="@color/rectangle_2698_color" />
+</shape>
+
