@@ -1,6 +1,8 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
+    id("kotlin-kapt")
+    id("com.google.dagger.hilt.android")
 }
 
 android {
@@ -43,6 +45,9 @@ dependencies {
     //recyclerview dependency
     implementation(libs.androidx.recyclerview)
 
+    implementation(libs.hilt.android)
+    kapt(libs.hilt.android.compiler)
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
@@ -53,3 +58,10 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
     implementation(libs.material)
 }
+
+// Allow references to generated code
+kapt {
+    correctErrorTypes = true
+}
+
+

@@ -5,7 +5,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 object ApiClient{
 //    base url of api
-    private const val BASE_URL = "https://vu-nit3213-api.onrender.com/"
+    const val BASE_URL = "https://vu-nit3213-api.onrender.com/"
 
 //    function to instantiate the retrofit
     fun getRetrofitInstance(): Retrofit {

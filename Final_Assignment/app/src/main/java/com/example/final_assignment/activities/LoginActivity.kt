@@ -12,11 +12,19 @@ import com.example.final_assignment.api.ApiService
 import com.example.final_assignment.models.LoginRequest
 import com.example.final_assignment.models.LoginResponse
 import com.example.final_assignment.R
+import dagger.hilt.android.AndroidEntryPoint
 import retrofit2.Callback
 import retrofit2.Response
 import retrofit2.Call
+import javax.inject.Inject
 
+@AndroidEntryPoint
 class LoginActivity : AppCompatActivity() {
+
+    @Inject
+    lateinit var apiService: ApiService
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
@@ -25,9 +33,9 @@ class LoginActivity : AppCompatActivity() {
         val passwordInput = findViewById<EditText>(R.id.password_field)
         val loginButton = findViewById<Button>(R.id.login_button)
 
-        //Initialize Retrofit
-        val retrofit = ApiClient.getRetrofitInstance()
-        val apiService = retrofit.create(ApiService::class.java)
+//        //Initialize Retrofit
+//        val retrofit = ApiClient.getRetrofitInstance()
+//        val apiService = retrofit.create(ApiService::class.java)
 
         loginButton.setOnClickListener{
             val username = usernameInput.text.toString().trim()

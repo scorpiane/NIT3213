@@ -12,11 +12,16 @@ import com.example.final_assignment.api.ApiClient
 import com.example.final_assignment.api.ApiService
 import com.example.final_assignment.models.DashboardResponse
 import com.example.final_assignment.models.EntityDetails
+import dagger.hilt.android.AndroidEntryPoint
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
+import javax.inject.Inject
 
+@AndroidEntryPoint
 class DashboardActivity : AppCompatActivity() {
+    @Inject
+    lateinit var apiService: ApiService
     private lateinit var recyclerView: RecyclerView
     private lateinit var adapter: MyAdapter
     private var currentIndex = 0 // Track current index
@@ -40,9 +45,9 @@ class DashboardActivity : AppCompatActivity() {
         recyclerView = findViewById(R.id.recyclerView)
         recyclerView.layoutManager = LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
 
-        // Initialize Retrofit
-        val retrofit = ApiClient.getRetrofitInstance()
-        val apiService = retrofit.create(ApiService::class.java)
+//        // Initialize Retrofit
+//        val retrofit = ApiClient.getRetrofitInstance()
+//        val apiService = retrofit.create(ApiService::class.java)
 
         // Get API data
         apiService.getEntities().enqueue(object : Callback<DashboardResponse> {
